@@ -39,6 +39,7 @@ flatpickr(refs.input, options);
 function timer() {
   let stopTime;
   refs.btn.disabled = true;
+  refs.input.disabled = true;
 
   const setId = setInterval(() => {
     const currentTime = Date.now();
